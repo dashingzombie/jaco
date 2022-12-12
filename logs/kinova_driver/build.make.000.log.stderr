@@ -1,0 +1,32 @@
+[01m[K/home/dashingzombie/catkin_ws/src/kinova-ros/kinova_driver/src/kinova_api.cpp:[m[K In member function ‘[01m[Kint kinova::KinovaAPI::initializeKinovaAPIFunctions(kinova::KinovaAPIType)[m[K’:
+[01m[K/home/dashingzombie/catkin_ws/src/kinova-ros/kinova_driver/src/kinova_api.cpp:333:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+  333 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/dashingzombie/catkin_ws/src/kinova-ros/kinova_driver/src/kinova_comm.cpp:[m[K In member function ‘[01m[Kint kinova::KinovaComm::SetRedundancyResolutionToleastSquares(int)[m[K’:
+[01m[K/home/dashingzombie/catkin_ws/src/kinova-ros/kinova_driver/src/kinova_comm.cpp:1700:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+ 1700 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/dashingzombie/catkin_ws/src/kinova-ros/kinova_driver/src/kinova_ros_types.cpp:[m[K In member function ‘[01m[Ktf::Quaternion kinova::KinovaPose::getQuaternion(tf::Quaternion&)[m[K’:
+[01m[K/home/dashingzombie/catkin_ws/src/kinova-ros/kinova_driver/src/kinova_ros_types.cpp:361:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+  361 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/dashingzombie/catkin_ws/src/kinova-ros/kinova_driver/src/kinova_comm.cpp:[m[K In member function ‘[01m[Kint kinova::KinovaComm::runCOMParameterEstimation(ROBOT_TYPE)[m[K’:
+[01m[K/home/dashingzombie/catkin_ws/src/kinova-ros/kinova_driver/src/kinova_comm.cpp:922:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+  922 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/dashingzombie/catkin_ws/src/kinova-ros/kinova_driver/src/kinova_comm.cpp:[m[K In member function ‘[01m[Kint kinova::KinovaComm::SelfCollisionAvoidanceInCartesianMode(int)[m[K’:
+[01m[K/home/dashingzombie/catkin_ws/src/kinova-ros/kinova_driver/src/kinova_comm.cpp:1672:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+ 1672 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/dashingzombie/catkin_ws/src/kinova-ros/kinova_driver/src/kinova_comm.cpp:[m[K In member function ‘[01m[Kint kinova::KinovaComm::SingularityAvoidanceInCartesianMode(int)[m[K’:
+[01m[K/home/dashingzombie/catkin_ws/src/kinova-ros/kinova_driver/src/kinova_comm.cpp:1681:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+ 1681 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/dashingzombie/catkin_ws/src/kinova-ros/kinova_driver/src/kinova_comm.cpp:[m[K In member function ‘[01m[Kint kinova::KinovaComm::SetRedundantJointNullSpaceMotion(int)[m[K’:
+[01m[K/home/dashingzombie/catkin_ws/src/kinova-ros/kinova_driver/src/kinova_comm.cpp:1695:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+ 1695 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/dashingzombie/catkin_ws/src/kinova-ros/kinova_driver/src/kinova_ros_types.cpp:[m[K In member function ‘[01m[Ktf::Quaternion kinova::KinovaPose::getQuaternion(tf::Quaternion&)[m[K’:
+[01m[K/home/dashingzombie/catkin_ws/src/kinova-ros/kinova_driver/src/kinova_ros_types.cpp:361:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+  361 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K

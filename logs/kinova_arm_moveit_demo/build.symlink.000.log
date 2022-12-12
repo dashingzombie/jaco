@@ -1,0 +1,7 @@
+Symlinking /home/dashingzombie/catkin_ws/devel/share/kinova_arm_moveit_demo/cmake/kinova_arm_moveit_demoConfig.cmake
+Symlinking /home/dashingzombie/catkin_ws/devel/share/kinova_arm_moveit_demo/cmake/kinova_arm_moveit_demoConfig-version.cmake
+Symlinking /home/dashingzombie/catkin_ws/devel/lib/kinova_arm_moveit_demo/test_accuracy
+Symlinking /home/dashingzombie/catkin_ws/devel/lib/kinova_arm_moveit_demo/work_scene
+Symlinking /home/dashingzombie/catkin_ws/devel/lib/kinova_arm_moveit_demo/pick_place
+Symlinking /home/dashingzombie/catkin_ws/devel/lib/kinova_arm_moveit_demo/motion_plan
+Symlinking /home/dashingzombie/catkin_ws/devel/lib/pkgconfig/kinova_arm_moveit_demo.pc

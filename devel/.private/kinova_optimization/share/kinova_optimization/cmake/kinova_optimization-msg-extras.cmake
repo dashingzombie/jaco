@@ -1,0 +1,2 @@
+set(kinova_optimization_MESSAGE_FILES "/home/dashingzombie/catkin_ws/src/kinova_optimization/msg/EEPoseGoals.msg;/home/dashingzombie/catkin_ws/src/kinova_optimization/msg/JointAngles.msg")
+set(kinova_optimization_SERVICE_FILES "/home/dashingzombie/catkin_ws/src/kinova_optimization/srv/RelaxedIKSolution.srv;/home/dashingzombie/catkin_ws/src/kinova_optimization/srv/IKSolution.srv;/home/dashingzombie/catkin_ws/src/kinova_optimization/srv/SelfCollisionQuery.srv")

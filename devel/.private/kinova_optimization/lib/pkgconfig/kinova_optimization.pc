@@ -1,0 +1,8 @@
+prefix=/home/dashingzombie/catkin_ws/devel/.private/kinova_optimization
+
+Name: kinova_optimization
+Description: Description of kinova_optimization
+Version: 0.0.0
+Cflags: -I/home/dashingzombie/catkin_ws/devel/.private/kinova_optimization/include
+Libs: -L${prefix}/lib 
+Requires: 

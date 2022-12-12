@@ -1,0 +1,85 @@
+[35m[1mScanning dependencies of target j2n6s300_arm_moveit_ikfast_plugin[0m
+make[2]: *** No rule to make target '/opt/ros/noetic/lib/liboctomap.so.1.9.8', needed by '/home/dashingzombie/catkin_ws/devel/.private/j2n6s300_ikfast/lib/libj2n6s300_arm_moveit_ikfast_plugin.so'.  Stop.
+make[2]: *** Waiting for unfinished jobs....
+[ 50%] [32mBuilding CXX object CMakeFiles/j2n6s300_arm_moveit_ikfast_plugin.dir/src/j2n6s300_arm_ikfast_moveit_plugin.cpp.o[0m
+[01m[K/home/dashingzombie/catkin_ws/src/kinova-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/src/j2n6s300_arm_ikfast_moveit_plugin.cpp:[m[K In member function ‘[01m[Kvirtual bool ikfast_kinematics_plugin::IKFastKinematicsPlugin::initialize(const string&, const string&, const string&, const string&, double)[m[K’:
+[01m[K/home/dashingzombie/catkin_ws/src/kinova-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/src/j2n6s300_arm_ikfast_moveit_plugin.cpp:320:86:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual void kinematics::KinematicsBase::setValues(const string&, const string&, const string&, const string&, double)[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  320 |   setValues(robot_description, group_name, base_name, tip_name, search_discretization[01;35m[K)[m[K;
+      |                                                                                      [01;35m[K^[m[K
+In file included from [01m[K/home/dashingzombie/catkin_ws/src/kinova-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/src/j2n6s300_arm_ikfast_moveit_plugin.cpp:49[m[K:
+[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:345:31:[m[K [01;36m[Knote: [m[Kdeclared here
+  345 |   [[deprecated]] virtual void [01;36m[KsetValues[m[K(const std::string& robot_description, const std::string& group_name,
+      |                               [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/dashingzombie/catkin_ws/src/kinova-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/src/j2n6s300_arm_ikfast_moveit_plugin.cpp:[m[K In member function ‘[01m[Kvirtual bool ikfast_kinematics_plugin::IKFastKinematicsPlugin::searchPositionIK(const Pose&, const std::vector<double>&, double, const std::vector<double>&, std::vector<double>&, const IKCallbackFn&, moveit_msgs::MoveItErrorCodes&, const kinematics::KinematicsQueryOptions&) const[m[K’:
+[01m[K/home/dashingzombie/catkin_ws/src/kinova-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/src/j2n6s300_arm_ikfast_moveit_plugin.cpp:880:63:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkinematics::KinematicsBase::search_discretization_[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  880 |     num_positive_increments = (int)((max_limit-initial_guess)/[01;35m[Ksearch_discretization_[m[K);
+      |                                                               [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/dashingzombie/catkin_ws/src/kinova-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/src/j2n6s300_arm_ikfast_moveit_plugin.cpp:49[m[K:
+[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:598:25:[m[K [01;36m[Knote: [m[Kdeclared here
+  598 |   [[deprecated]] double [01;36m[Ksearch_discretization_[m[K;
+      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dashingzombie/catkin_ws/src/kinova-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/src/j2n6s300_arm_ikfast_moveit_plugin.cpp:880:63:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkinematics::KinematicsBase::search_discretization_[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  880 |     num_positive_increments = (int)((max_limit-initial_guess)/[01;35m[Ksearch_discretization_[m[K);
+      |                                                               [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/dashingzombie/catkin_ws/src/kinova-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/src/j2n6s300_arm_ikfast_moveit_plugin.cpp:49[m[K:
+[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:598:25:[m[K [01;36m[Knote: [m[Kdeclared here
+  598 |   [[deprecated]] double [01;36m[Ksearch_discretization_[m[K;
+      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dashingzombie/catkin_ws/src/kinova-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/src/j2n6s300_arm_ikfast_moveit_plugin.cpp:881:63:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkinematics::KinematicsBase::search_discretization_[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  881 |     num_negative_increments = (int)((initial_guess-min_limit)/[01;35m[Ksearch_discretization_[m[K);
+      |                                                               [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/dashingzombie/catkin_ws/src/kinova-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/src/j2n6s300_arm_ikfast_moveit_plugin.cpp:49[m[K:
+[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:598:25:[m[K [01;36m[Knote: [m[Kdeclared here
+  598 |   [[deprecated]] double [01;36m[Ksearch_discretization_[m[K;
+      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dashingzombie/catkin_ws/src/kinova-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/src/j2n6s300_arm_ikfast_moveit_plugin.cpp:881:63:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkinematics::KinematicsBase::search_discretization_[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  881 |     num_negative_increments = (int)((initial_guess-min_limit)/[01;35m[Ksearch_discretization_[m[K);
+      |                                                               [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/dashingzombie/catkin_ws/src/kinova-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/src/j2n6s300_arm_ikfast_moveit_plugin.cpp:49[m[K:
+[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:598:25:[m[K [01;36m[Knote: [m[Kdeclared here
+  598 |   [[deprecated]] double [01;36m[Ksearch_discretization_[m[K;
+      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dashingzombie/catkin_ws/src/kinova-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/src/j2n6s300_arm_ikfast_moveit_plugin.cpp:885:82:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkinematics::KinematicsBase::search_discretization_[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  885 |     num_positive_increments = (joint_max_vector_[free_params_[0]]-initial_guess)/[01;35m[Ksearch_discretization_[m[K;
+      |                                                                                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/dashingzombie/catkin_ws/src/kinova-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/src/j2n6s300_arm_ikfast_moveit_plugin.cpp:49[m[K:
+[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:598:25:[m[K [01;36m[Knote: [m[Kdeclared here
+  598 |   [[deprecated]] double [01;36m[Ksearch_discretization_[m[K;
+      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dashingzombie/catkin_ws/src/kinova-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/src/j2n6s300_arm_ikfast_moveit_plugin.cpp:885:82:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkinematics::KinematicsBase::search_discretization_[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  885 |     num_positive_increments = (joint_max_vector_[free_params_[0]]-initial_guess)/[01;35m[Ksearch_discretization_[m[K;
+      |                                                                                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/dashingzombie/catkin_ws/src/kinova-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/src/j2n6s300_arm_ikfast_moveit_plugin.cpp:49[m[K:
+[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:598:25:[m[K [01;36m[Knote: [m[Kdeclared here
+  598 |   [[deprecated]] double [01;36m[Ksearch_discretization_[m[K;
+      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dashingzombie/catkin_ws/src/kinova-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/src/j2n6s300_arm_ikfast_moveit_plugin.cpp:886:82:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkinematics::KinematicsBase::search_discretization_[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  886 |     num_negative_increments = (initial_guess-joint_min_vector_[free_params_[0]])/[01;35m[Ksearch_discretization_[m[K;
+      |                                                                                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/dashingzombie/catkin_ws/src/kinova-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/src/j2n6s300_arm_ikfast_moveit_plugin.cpp:49[m[K:
+[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:598:25:[m[K [01;36m[Knote: [m[Kdeclared here
+  598 |   [[deprecated]] double [01;36m[Ksearch_discretization_[m[K;
+      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dashingzombie/catkin_ws/src/kinova-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/src/j2n6s300_arm_ikfast_moveit_plugin.cpp:886:82:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkinematics::KinematicsBase::search_discretization_[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  886 |     num_negative_increments = (initial_guess-joint_min_vector_[free_params_[0]])/[01;35m[Ksearch_discretization_[m[K;
+      |                                                                                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/dashingzombie/catkin_ws/src/kinova-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/src/j2n6s300_arm_ikfast_moveit_plugin.cpp:49[m[K:
+[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:598:25:[m[K [01;36m[Knote: [m[Kdeclared here
+  598 |   [[deprecated]] double [01;36m[Ksearch_discretization_[m[K;
+      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dashingzombie/catkin_ws/src/kinova-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/src/j2n6s300_arm_ikfast_moveit_plugin.cpp:975:30:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkinematics::KinematicsBase::search_discretization_[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  975 |     vfree[0] = initial_guess+[01;35m[Ksearch_discretization_[m[K*counter;
+      |                              [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/dashingzombie/catkin_ws/src/kinova-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/src/j2n6s300_arm_ikfast_moveit_plugin.cpp:49[m[K:
+[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:598:25:[m[K [01;36m[Knote: [m[Kdeclared here
+  598 |   [[deprecated]] double [01;36m[Ksearch_discretization_[m[K;
+      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dashingzombie/catkin_ws/src/kinova-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/src/j2n6s300_arm_ikfast_moveit_plugin.cpp:975:30:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkinematics::KinematicsBase::search_discretization_[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  975 |     vfree[0] = initial_guess+[01;35m[Ksearch_discretization_[m[K*counter;
+      |                              [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/dashingzombie/catkin_ws/src/kinova-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/src/j2n6s300_arm_ikfast_moveit_plugin.cpp:49[m[K:
+[01m[K/opt/ros/noetic/include/moveit/kinematics_base/kinematics_base.h:598:25:[m[K [01;36m[Knote: [m[Kdeclared here
+  598 |   [[deprecated]] double [01;36m[Ksearch_discretization_[m[K;
+      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+make[1]: *** [CMakeFiles/Makefile2:648: CMakeFiles/j2n6s300_arm_moveit_ikfast_plugin.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

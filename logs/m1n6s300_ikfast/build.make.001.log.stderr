@@ -1,0 +1,3 @@
+make[2]: *** No rule to make target '/opt/ros/noetic/lib/liboctomap.so.1.9.8', needed by '/home/dashingzombie/catkin_ws/devel/.private/m1n6s300_ikfast/lib/libm1n6s300_mico_arm_moveit_ikfast_plugin.so'.  Stop.
+make[1]: *** [CMakeFiles/Makefile2:1134: CMakeFiles/m1n6s300_mico_arm_moveit_ikfast_plugin.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

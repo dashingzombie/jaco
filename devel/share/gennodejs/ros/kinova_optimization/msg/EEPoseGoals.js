@@ -1,0 +1,1 @@
+/home/dashingzombie/catkin_ws/devel/.private/kinova_optimization/share/gennodejs/ros/kinova_optimization/msg/EEPoseGoals.js

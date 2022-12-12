@@ -1,0 +1,6 @@
+kinova-ros/kinova_demo
+/home/dashingzombie/catkin_ws/devel/.private/kinova_demo/cmake.lock /home/dashingzombie/catkin_ws/devel/./cmake.lock
+/home/dashingzombie/catkin_ws/devel/.private/kinova_demo/share/kinova_demo/cmake/kinova_demoConfig.cmake /home/dashingzombie/catkin_ws/devel/share/kinova_demo/cmake/kinova_demoConfig.cmake
+/home/dashingzombie/catkin_ws/devel/.private/kinova_demo/share/kinova_demo/cmake/kinova_demoConfig-version.cmake /home/dashingzombie/catkin_ws/devel/share/kinova_demo/cmake/kinova_demoConfig-version.cmake
+/home/dashingzombie/catkin_ws/devel/.private/kinova_demo/lib/python3/dist-packages/kinova_demo/__init__.py /home/dashingzombie/catkin_ws/devel/lib/python3/dist-packages/kinova_demo/__init__.py
+/home/dashingzombie/catkin_ws/devel/.private/kinova_demo/lib/pkgconfig/kinova_demo.pc /home/dashingzombie/catkin_ws/devel/lib/pkgconfig/kinova_demo.pc

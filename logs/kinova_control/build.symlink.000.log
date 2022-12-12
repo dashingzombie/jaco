@@ -1,0 +1,3 @@
+Symlinking /home/dashingzombie/catkin_ws/devel/share/kinova_control/cmake/kinova_controlConfig.cmake
+Symlinking /home/dashingzombie/catkin_ws/devel/share/kinova_control/cmake/kinova_controlConfig-version.cmake
+Symlinking /home/dashingzombie/catkin_ws/devel/lib/pkgconfig/kinova_control.pc

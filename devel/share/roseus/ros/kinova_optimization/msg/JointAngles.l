@@ -1,0 +1,1 @@
+/home/dashingzombie/catkin_ws/devel/.private/kinova_optimization/share/roseus/ros/kinova_optimization/msg/JointAngles.l

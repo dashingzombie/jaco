@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/dashingzombie/catkin_ws/devel/.private/relaxed_ik_ros1/setup.sh
